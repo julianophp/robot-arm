@@ -9,16 +9,21 @@ $ composer install
 ## Usage
 
 ```bash
-$ php ./public/index.php [file_name]
+$ composer run [file_name]
 ```
 
 Replace [file_name] with a valid commands file name.  
 
+## Testing
+
+``` bash
+$ composer test
+```
 
 ## Example
 
 ```bash
-$ php ./public/index.php example/commands.txt
+$ composer run example/commands.txt
 ```
 
 Below there is an example of valid commands:
