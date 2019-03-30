@@ -8,10 +8,25 @@ namespace SalesFloor;
  */
 class RobotArm
 {
-    private $fileName;
-    private $stack      = [];
-    private $positions  = [];
-    private $commands   = [];
+    /**
+     * @var string $fileName
+     */
+    protected $fileName;
+
+    /**
+     * @var array $stack
+     */
+    protected $stack = [];
+
+    /**
+     * @var array $positions
+     */
+    protected $positions = [];
+
+    /**
+     * @var array $commands
+     */
+    protected $commands = [];
 
     /**
      * RobotArm constructor.
@@ -256,7 +271,7 @@ class RobotArm
     {
         $stack = $this->getStack($indexStack);
 
-        $this->setStack($indexStack, str_replace([$block, " $block"], '', $stack));
+        $this->setStack($indexStack, trim(str_replace([$block, " $block"], '', $stack)));
     }
 
     /**

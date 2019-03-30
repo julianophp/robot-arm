@@ -1,0 +1,10 @@
+10
+move 0 onto 9
+pile 9 onto 1
+move 8 over 1
+pile 5 over 7
+move 6 over 7
+move 5 onto 9
+move 4 onto 7
+pile 7 onto 9
+quit
