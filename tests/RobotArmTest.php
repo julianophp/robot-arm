@@ -196,6 +196,25 @@ class RobotArmTest extends TestCase
         $this->assertEquals('',                 $stack[9]);
     }
 
+    /** @test */
+    public function testExec()
+    {
+        $robotArm = new RobotArm($this->commandsFileName);
+
+        $stack = $robotArm->exec();
+
+        $this->assertEquals('[0]',              $stack[0]);
+        $this->assertEquals('[1] [9] [7] [4]',  $stack[1]);
+        $this->assertEquals('[2]',              $stack[2]);
+        $this->assertEquals('[3]',              $stack[3]);
+        $this->assertEquals('',                 $stack[4]);
+        $this->assertEquals('[5]',              $stack[5]);
+        $this->assertEquals('[6]',              $stack[6]);
+        $this->assertEquals('',                 $stack[7]);
+        $this->assertEquals('[8]',              $stack[8]);
+        $this->assertEquals('',                 $stack[9]);
+    }
+
     /**
      * @param $propertyName
      * @return \ReflectionProperty
