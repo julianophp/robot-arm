@@ -1,5 +1,5 @@
 {
-  "name": "julianophp/salesfloor-robot-arm",
+  "name": "julianophp/robot-arm",
   "description": "Move blocks",
   "authors": [
     {
@@ -15,12 +15,12 @@
   },
   "autoload": {
     "psr-4": {
-      "SalesFloor\\": "src"
+      "App\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SalesFloor\\Test\\": "tests"
+      "App\\Test\\": "tests"
     }
   },
   "scripts": {

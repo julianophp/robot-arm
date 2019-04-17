@@ -2,7 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use SalesFloor\RobotArm;
+use App\RobotArm;
 
 if (!isset($argv[1]) || !is_file($argv[1])) {
     exit('Commands file invalid!' . PHP_EOL);

@@ -1,8 +1,8 @@
 <?php
 
-namespace SalesFloor\Test;
+namespace App\Test;
 
-use SalesFloor\RobotArm;
+use App\RobotArm;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

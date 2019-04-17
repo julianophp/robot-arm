@@ -1,10 +1,10 @@
 <?php
 
-namespace SalesFloor;
+namespace App;
 
 /**
  * Class RobotArm
- * @package SalesFloor
+ * @package App
  */
 class RobotArm
 {
