@@ -1,4 +1,4 @@
-# salesfloor-robot-arm
+# robot-arm
 
 ## Installation
 
